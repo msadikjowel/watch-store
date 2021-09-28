@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Store</title>
+
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="">
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Store</a>
+            <a href="#">Watch</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Support</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-btn"></i>
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-shopping-bag" id="shopping-btn"></i>
+            <!-- <i class="fas fa-user" id="user-btn"></i> -->
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <!-- header shopping bag -->
+        <div class="shopping-bag">
+            <div class="text">
+                <p>Your Bag is empty</p>
+            </div>
+            <div class="contents">
+                <ul>
+                    <a href="#">
+                        <li> <i class="fas fa-shopping-bag"></i> Bag</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="far fa-heart"></i> Favorite</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="fas fa-shopping-cart"></i> Orders</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="fas fa-user-cog"></i> Account</li>
+                    </a>
+                    <a href="#">
+                        <li> <i class="fas fa-user-circle"></i> Sign in</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 768px menu -->
+        <div class="menu-bar">
+            <div class="container-ul">
+                <ul>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Store</li>
+                    </a>
+                    <a href="#">
+                        <li>Watch</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li>Support</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- slider section starts -->
+    <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div style="border-radius: 5px;" class="carousel-inner">
+            <div class="carousel-item active">
+                <div style="background-color: rgb(34,34,34); color: #eee; border-radius: 5px;"
+                    class="row p-5 d-fles align-items-center">
+                    <div class="col-lg-7">
+                        <h1>BluTect Smartwatch (Black)</h1>
+                        <p>Protect Your Belongings – BluTect helps you not to forget or lose your Mobile Phone,
+                            Keychain, Wallet, Passport, Bag, even Eyeglasses.
+
+                            It connects to the different shapes and size Bluetooth tags that you have attached to your
+                            valuable items and notifies you when are getting far from them.</p>
+                        <h1> <span style="font-size: 20px; color: #6e6e73; text-decoration: line-through;">$89.89</span>
+                            $79.89</h1>
+                        <button class="btn btn-warning beta">Buy Now</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/watch1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div style="background-color: rgb(193,241,248);" class="row p-5 d-fles align-items-center">
+                    <div class="col-lg-7">
+                        <h1>BluTect Smart Watch (Blue)</h1>
+                        <p>BluTect can act as a Social Distance Policy Implementation Tool – BluTect Detects Other
+                            Bluetooth Devices and Give you Warning When They are Too Close to You by Measuring Their
+                            Signal Strength.</p>
+                        <h1> <span style="font-size: 20px; color: #6e6e73; text-decoration: line-through;">$99.90</span>
+                            $89.90</h1>
+                        <button class="btn btn-warning beta">Buy Now</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/watch2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div style="background-color: #FEEAE9;" class="row p-5 d-fles align-items-center">
+                    <div class="col-lg-7">
+                        <h1>BluTect Smartwatch (Pink)</h1>
+                        <p>BluTect wakes you up Naturally when your body is ready to wake up – Sleep has Cycles From
+                            Light to Deep Sleep. The Cycle Repeats Every 1-1.5 Hour. The Best Time to Wake Up is When
+                            You are Not in Deep Sleep. BluTect Detects and Analysis Your Sleep Quality to Find The Best
+                            Time Around the Designated Wake Up Time in The Radius of 30 Minutes. If You Set You Alarm on
+                            7am, BluTect will Wake You Up At the Best Time Between 6:30 and 7:30</p>
+                        <h1> <span
+                                style="font-size: 20px; color: #6e6e73; text-decoration: line-through;">$109.99</span>
+                            $99.99</h1>
+                        <button class="btn btn-warning beta">Buy Now</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/watch3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider section ends -->
+
+    <!-- feature watch section starts -->
+    <div class="container container-watch">
+        <div class="text-center mt-5">
+            <h2 style="font-size: 2.5rem;" class="fw-bolder mb-5"><img style="width: 3rem; color: white;"
+                    src="images/logo.png" alt=""> WATCH</h2>
+
+            <h2 style="font-size: 3rem;" class="fw-bolder mb-4">Full screen ahead.</h2>
+            <p style="font-size: 1.3rem; color: #666666;" class="mb-4">Available later this fall</p>
+            <div class="link">
+                <a style="text-decoration: none; font-size: 1.4rem;" class="me-4" href="#">Learn More ></a>
+                <a style="text-decoration: none; font-size: 1.5rem;" href="#">Watch the film <i
+                        class="far fa-play-circle ms-1"></i></a>
+            </div>
+        </div>
+        <div class="container image">
+            <img id="twoWatch" class="img-fluid" src="images/twoWatch.jpg" alt="">
+        </div>
+    </div>
+    <!-- feature watch section ends -->
+
+
+    <!-- second feature section starts -->
+    <div class="feature-second container">
+        <div class="feature-second-img">
+            <img class="img-fluid" src="images/feature-watch1.png" alt="">
+        </div>
+
+        <div class="feature-second-text">
+            <h2>Next Generation
+                Smartwatch</h2>
+            <p>BluTect is a Revolutionary Device Not Only Works As a Regular Smartwatch and Fitness Tracker but Also Can
+                Remind Social Distancing, Prevents Losing or Forgetting Valuable Belongings, Wake you Up Naturally at
+                The Best time…</p>
+            <a href="#">Learn more</a>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <!-- second feature section ends -->
+
+    <!-- third feature section starts -->
+    <div class="feature-third container">
+        <div class="feature-third-text">
+            <h2>DON'T LOSE ANYTHING AGAIN</h2>
+            <p>Protect Your Belongings – BluTect helps you not to forget or lose your Mobile Phone, Keychain, Wallet,
+                Passport, Bag, even Eyeglasses.
+
+                It connects to the different shapes and size Bluetooth tags that you have attached to your valuable
+                items and notifies you when are getting far from them.</p>
+            <a href="#">Learn more</a>
+            <button>Buy now</button>
+        </div>
+
+        <div class="feature-third-img">
+            <img class="img-fluid" src="images/feature-watch2.png" alt="">
+        </div>
+
+
+    </div>
+    <!-- third feature section ends -->
+
+    <!-- fourth feature section starts -->
+    <div class="feature-fourth container">
+        <div class="feature-fourth-img">
+            <img class="img-fluid" src="images/feature-watch3.png" alt="">
+        </div>
+
+        <div class="feature-fourth-text">
+            <h2>MAINTAIN SOCIAL DISTANCING</h2>
+            <p>BluTect can act as a Social Distance Policy Implementation Tool – BluTect Detects Other Bluetooth Devices
+                and Give you Warning When They are Too Close to You by Measuring Their Signal Strength.</p>
+            <a href="#">Learn more</a>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <!-- fourth feature section ends -->
+
+    <!-- fifth feature section starts -->
+    <div class="feature-fifth container">
+        <div class="feature-fifth-text">
+            <h2>WAKE UP AT THE BEST TIME</h2>
+            <p>BluTect wakes you up Naturally when your body is ready to wake up – Sleep has Cycles From Light to Deep
+                Sleep. The Cycle Repeats Every 1-1.5 Hour. The Best Time to Wake Up is When You are Not in Deep Sleep.
+                BluTect Detects and Analysis Your Sleep Quality to Find The Best Time Around the Designated Wake Up Time
+                in The Radius of 30 Minutes. If You Set You Alarm on 7am, BluTect will Wake You Up At the Best Time
+                Between 6:30 and 7:30</p>
+            <a href="#">Learn more</a>
+            <button>Buy now</button>
+        </div>
+
+        <div class="feature-fifth-img">
+            <img class="img-fluid" src="images/feature-watch4.png" alt="">
+        </div>
+
+
+    </div>
+    <!-- third feature section ends -->
+
+    <!-- footer section starts -->
+    <footer class="">
+        <div class="footer">
+            <div class="quick-links">
+                <ul>
+                    <h4>Quick Links</h4>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Store</li>
+                    </a>
+                    <a href="#">
+                        <li>Watch</li>
+                    </a>
+                    <a href="#">
+                        <li>Support</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="account">
+                <ul>
+                    <h4>Account</h4>
+                    <a href="#">
+                        <li>My Account</li>
+                    </a>
+                    <a href="#">
+                        <li>Login</li>
+                    </a>
+                    <a href="#">
+                        <li>Register</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <ul>
+                    <h4>Contact Us</h4>
+                    <a href="#">
+                        <li>sales@blutect.com</li>
+                    </a>
+                    <a href="#">
+                        <li>+1(844) 313-1290</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="subscribe">
+
+                <h4>Newsletter</h4>
+                <p>Subscribe to our Newsletter</p>
+                <input id="text" type="email" placeholder="Your Email">
+                <input id="btn" type="button" value="SUBSCRIBE">
+
+
+            </div>
+        </div>
+
+        <div class="last-footer">
+            <div class="shop container">
+                <p>More ways to shop: call <a href="#">+1(844) 313-1290</a> or mail <a href="#">sales@blutect.com</a>
+                </p>
+            </div>
+            <div class="container copyright">
+                <div>
+                    <p>Copyright <i class="far fa-copyright"></i> 2022 BluTect Inc. All Rights Reserverd.</p>
+                </div>
+
+                <div class="terms">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales and Refunds</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Site Map</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+
+    <!-- js bundle link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- external js link -->
+    <script src="app.js"></script>
+</body>
+
+</html>
