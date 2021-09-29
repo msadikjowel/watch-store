@@ -28,7 +28,12 @@ header{
 }
 
 header .logo img{
-    width: 1.5rem;
+    width: 6rem;
+}
+
+header .logo a{
+    color: white;
+    text-decoration: none;
 }
 
 header .navbar a{
